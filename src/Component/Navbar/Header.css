@@ -1,0 +1,25 @@
+.header h2 a{
+  color: aliceblue;
+}
+.header {
+  box-shadow: black 5px 5px 31px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 2rem;
+}
+.list a{
+  font-weight: 500;
+  color: white;
+}
